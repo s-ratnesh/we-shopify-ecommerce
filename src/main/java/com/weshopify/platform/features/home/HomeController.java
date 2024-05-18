@@ -10,10 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 public class HomeController {
 	//private static Logger log = LoggerFactory.getLogger(HomeController.class);
 
-	@RequestMapping(value = {"","/","/home"})
+	@RequestMapping(value = {"","/","/home","/index"})
 	public String viewHomePage() {
 		log.info("i am in Home Controller viewHomePage method");
-		return "home";
+		return "index";
 	}
 	
 }
