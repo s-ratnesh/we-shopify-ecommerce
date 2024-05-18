@@ -13,7 +13,7 @@ public class HomeController {
 	@RequestMapping(value = {"","/","/home","/index"})
 	public String viewHomePage() {
 		log.info("i am in Home Controller viewHomePage method");
-		return "home";
+		return "dashboard";
 	}
 	
 }
